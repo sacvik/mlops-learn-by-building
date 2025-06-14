@@ -42,17 +42,20 @@ Each project is designed to help you learn the **why, what, and how** of MLOps c
 For every MLOps module, you will find a dedicated tutorial:
 | MLOps Component      | Covered in Repo                        | Guide/Tutorial   | Topics Covered                          |
 |----------------------|----------------------------------------|------------------|------------------------------------------|
-| Data Versioning      | ✅ `DVC` based in `data/`               | 📖 Coming Soon   | Raw/processed data tracking, storage, reproducibility |
-| Experiment Tracking  | ✅ `MLflow` integrated in pipelines     | 📖 Coming Soon   | Run tracking, hyperparameter logging, model comparison |
-| Model Training       | ✅ Structured + BERT examples           | 📖 Coming Soon   | Training scripts, config-based runs, HuggingFace/Baseline models |
-| CI/CD                | ✅ GitHub Actions workflows             | 📖 Coming Soon   | Test automation, linting, pipeline validation, deployment triggers |
-| Serving APIs         | ✅ `FastAPI` deployments                | 📖 Coming Soon   | Model packaging, REST API endpoints, Dockerization |
-| Monitoring           | ✅ Drift detection with `Evidently`     | 📖 Coming Soon   | Feature distribution monitoring, alerting, dashboarding |
-| Orchestration        | ✅ `Prefect`/`Airflow` pipelines        | 📖 Coming Soon   | Task scheduling, data pipeline management, error handling |
+| Data Versioning      | `DVC` based in `data/`               | Coming Soon   | Raw/processed data tracking, storage, reproducibility** |
+| Orchestration        | `Prefect`/`Airflow` pipelines        |  Coming Soon   | Task scheduling, data pipeline management, error handling |
+| Model Training       |  Structured + BERT examples           |  Coming Soon   | Training scripts, config-based runs, HuggingFace/Baseline models |
+| Experiment Tracking  | `MLflow` integrated in pipelines     |  Coming Soon   | Run tracking, hyperparameter logging, model comparison |
+| CI/CD                | GitHub Actions workflows             |  Coming Soon   | Test automation, linting, pipeline validation, deployment triggers |
+| Serving APIs         | `FastAPI` deployments                |  Coming Soon   | Model packaging, REST API endpoints, Dockerization |
+| Monitoring           | Drift detection with `Evidently`     |  Coming Soon   | Feature distribution monitoring, alerting, dashboarding |
+
 
 > As you go deeper, you'll be able to compare different tools and designs using **two end-to-end projects**:
 - `structured_model/` → Tabular ML (e.g., classification/regression)
 - `text_model/` → NLP pipeline (e.g., BERT fine-tuning)
+
+> Currentlly, only these two models are implemented for learning purposes, but can be extended to include more complex models like computer vision, time series, etc.
 
 ---
 
